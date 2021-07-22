@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Story4">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:layout_marginVertical="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pixeltrue_idea_1" />
+
+    <TextView
+        android:id="@+id/teksStory4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="Aku mendapat ide untuk aplikasi ini\nkarena aku bertemu temanku melalui\nmedium digital seperti ini.\n~\nMaka aku ingin memberikan sebuah kado\ndigital yang layaknya surat tapi dalam bentuk \nyang lebih ''Advanced''."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnApaItu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apa Itu?"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksStory4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
